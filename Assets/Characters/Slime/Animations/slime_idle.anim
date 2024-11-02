@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: player_attack
+  m_Name: slime_idle
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -220411368, guid: e39c93688034462b0ac53f20616ef4d5, type: 3}
+      value: {fileID: -1279525180, guid: 3827338f3a75ba8979c7d3024472fdb6, type: 3}
     - time: 0.1
-      value: {fileID: -935497539, guid: e39c93688034462b0ac53f20616ef4d5, type: 3}
+      value: {fileID: -83143239, guid: 3827338f3a75ba8979c7d3024472fdb6, type: 3}
     - time: 0.2
-      value: {fileID: 1496772653, guid: e39c93688034462b0ac53f20616ef4d5, type: 3}
+      value: {fileID: -71857498, guid: 3827338f3a75ba8979c7d3024472fdb6, type: 3}
     - time: 0.3
-      value: {fileID: -1958310477, guid: e39c93688034462b0ac53f20616ef4d5, type: 3}
+      value: {fileID: -505283277, guid: 3827338f3a75ba8979c7d3024472fdb6, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,10 +50,10 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -220411368, guid: e39c93688034462b0ac53f20616ef4d5, type: 3}
-    - {fileID: -935497539, guid: e39c93688034462b0ac53f20616ef4d5, type: 3}
-    - {fileID: 1496772653, guid: e39c93688034462b0ac53f20616ef4d5, type: 3}
-    - {fileID: -1958310477, guid: e39c93688034462b0ac53f20616ef4d5, type: 3}
+    - {fileID: -1279525180, guid: 3827338f3a75ba8979c7d3024472fdb6, type: 3}
+    - {fileID: -83143239, guid: 3827338f3a75ba8979c7d3024472fdb6, type: 3}
+    - {fileID: -71857498, guid: 3827338f3a75ba8979c7d3024472fdb6, type: 3}
+    - {fileID: -505283277, guid: 3827338f3a75ba8979c7d3024472fdb6, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -78,18 +78,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0
-    functionName: SwordAttack
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.4
-    functionName: EndSwordAttack
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []
